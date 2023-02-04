@@ -1,5 +1,5 @@
 body {
-    height: 1720px;
+    height: 1690px;
     background-color: rgb(246, 244, 244);
 }
 /* header ---------------------------------------------- */
@@ -170,7 +170,7 @@ body {
 /* footer ---------------------------------------------------------*/
 .footer {
     width: 100%;
-    height: 230px;
+    height: 200px;
     margin-top: 50px;
     background-color: rgb(177, 177, 177);;
     padding-top: 50px;
@@ -231,4 +231,16 @@ body {
 .icons1 {
     width: 25px;
     display: inline-block;
+}
+/* text iocn ---------------------------------------------------------- */ 
+.message-div {
+    position: absolute;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    width: 40px;
+    transform: translate(-50%, -50%);
+}
+.message-icon {
+    width: 40px;
 }
